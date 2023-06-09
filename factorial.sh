@@ -13,4 +13,4 @@ fact=`expr $fact \* $i`
 i=`expr $i - 1`
 done
 echo -e "The factorial of $n is: $fact\n"
-done
+do
