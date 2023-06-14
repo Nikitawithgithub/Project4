@@ -3,13 +3,13 @@
 echo -e "\nScript to check the largest of three numbers\n"
 
 echo "Enter the first number: "
-read num1
+read $num1
 
 echo "Enter the second number: "
-read num2
+read $num2
 
 echo "Enter the third number: "
-read num3
+read $num3
 
 if [ $num1 -gt $num2 ] && [ $num1 -gt $num3 ]
 then
