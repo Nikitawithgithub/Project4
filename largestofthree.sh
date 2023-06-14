@@ -3,7 +3,7 @@
 echo -e "\nScript to check the largest of three numbers\n"
 
 echo "Enter the first number: $num1"
-read $num1
+read num1
 
 echo "Enter the second number: $num2"
 read $num2
