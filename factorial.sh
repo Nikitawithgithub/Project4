@@ -14,5 +14,3 @@ i=`expr $i - 1`
 done
 echo -e "The factorial of $n is: $fact\n"
 done
-
-echo "This is to be pushed to the scripts branch"
