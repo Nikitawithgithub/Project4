@@ -16,5 +16,9 @@ pipeline {
                 sh './TestingwithPR'
            }
                        }
+               sh 'chmod 777 TestingwithPR'
+               sh './TestingwithPR'
+           }
+           }
 }
 }
