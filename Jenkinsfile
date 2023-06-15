@@ -13,6 +13,9 @@ pipeline {
         }
            stage('runs a file') {
            steps {
+                sh './TestingwithPR'
+           }
+                       }
                sh 'chmod 777 TestingwithPR'
                sh './TestingwithPR'
            }
