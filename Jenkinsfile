@@ -6,11 +6,15 @@ pipeline {
                 sh 'git checkout Testbranch'
                    }           
             }
+        stage('change permission') {
+            steps {
+                sh 'chmod 777 TestingwithPR'
+            }
+        }
            stage('runs a file') {
            steps {
-                sh 'chmod 777 TestingwithPR'
                 sh './TestingwithPR'
            }
-           }
+                       }
 }
 }
