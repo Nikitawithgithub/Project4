@@ -20,5 +20,3 @@ pipeline {
                sh './TestingwithPR'
            }
            }
-}
-}
